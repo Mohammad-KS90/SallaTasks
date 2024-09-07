@@ -23,9 +23,11 @@ struct ItemSwiftUIView: View {
                 .padding()
 
             Text(prand.name ?? "N/A")
+                .font(AppSettings.shared.primaryFont)
                 .foregroundColor(.black)
 
             Text("$\(String(format: "%.2f", prand.price ?? 0.0))")
+                .font(AppSettings.shared.primaryFont)
                 .foregroundColor(.black)
 
             // "Add to Cart" button
@@ -35,6 +37,7 @@ struct ItemSwiftUIView: View {
             }) {
                 Text(isAddedToCart ? "Added" : "Add to Cart")
                     .foregroundColor(.black)
+                    .font(AppSettings.shared.primaryFont)
                     .padding()
                     .frame(maxWidth: .infinity)
                     .background(isAddedToCart ? Color.green : Color.gray)

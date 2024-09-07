@@ -14,7 +14,7 @@ struct ItemDetailsSwiftUIView: View {
     var body: some View {
         VStack(spacing: 20) {
             Text(viewModel.product?.name ?? "")
-                .font(.title)
+                .font(AppSettings.shared.primaryFont)
                 .fontWeight(.bold)
                 .padding(.top, 20)
             ZStack(alignment: .topLeading) {
@@ -22,7 +22,7 @@ struct ItemDetailsSwiftUIView: View {
                     switch phase {
                     case .failure:
                         Image(systemName: "photo")
-                            .font(.largeTitle)
+                            .font(AppSettings.shared.primaryFont)
                     case .success(let image):
                         image
                             .resizable()
@@ -35,7 +35,7 @@ struct ItemDetailsSwiftUIView: View {
 
                 // Badge
                 Text("عرض لا يقاوم")
-                    .font(.caption)
+                    .font(AppSettings.shared.primaryFont)
                     .fontWeight(.bold)
                     .padding(5)
                     .background(Color.black.opacity(0.7))
@@ -52,8 +52,7 @@ struct ItemDetailsSwiftUIView: View {
                     .padding([.top, .leading], 5)
                 
                 Text(String(format: "SAR %.2f", (viewModel.product?.price ?? 0.0)))
-                    .font(.title2)
-                    .fontWeight(.bold)
+                    .font(AppSettings.shared.primaryFont)
                     .padding([.leading], 5)
 
             }
@@ -65,7 +64,7 @@ struct ItemDetailsSwiftUIView: View {
                     // Add your favorite action here
                 }) {
                     Image(systemName: "heart")
-                        .font(.title)
+                        .font(AppSettings.shared.primaryFont)
                         .foregroundColor(.gray)
                         .padding()
                 }
@@ -74,7 +73,7 @@ struct ItemDetailsSwiftUIView: View {
                     // Add your share action here
                 }) {
                     Image(systemName: "square.and.arrow.up")
-                        .font(.title)
+                        .font(AppSettings.shared.primaryFont)
                         .foregroundColor(.gray)
                         .padding()
                 }
