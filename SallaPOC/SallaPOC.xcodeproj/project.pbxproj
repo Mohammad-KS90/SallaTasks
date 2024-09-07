@@ -60,6 +60,9 @@
 		2A99B2E52C8BBF3B0017F927 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99B2E42C8BBF3B0017F927 /* ColorExtension.swift */; };
 		2A99B2E62C8BBF3B0017F927 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99B2E42C8BBF3B0017F927 /* ColorExtension.swift */; };
 		2A99B2E72C8BBF3B0017F927 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99B2E42C8BBF3B0017F927 /* ColorExtension.swift */; };
+		2A99B2EA2C8BDD1E0017F927 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99B2E92C8BDD1E0017F927 /* NetworkError.swift */; };
+		2A99B2EB2C8BDD1E0017F927 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99B2E92C8BDD1E0017F927 /* NetworkError.swift */; };
+		2A99B2EC2C8BDD1E0017F927 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99B2E92C8BDD1E0017F927 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +110,7 @@
 		2A99B2DE2C89267B0017F927 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2A99B2E02C8B3FBF0017F927 /* BundleFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleFileManager.swift; sourceTree = "<group>"; };
 		2A99B2E42C8BBF3B0017F927 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		2A99B2E92C8BDD1E0017F927 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,14 +164,15 @@
 			isa = PBXGroup;
 			children = (
 				2A99B2DE2C89267B0017F927 /* Info.plist */,
+				2A62FAA82C889AB5009B1333 /* SallaPOCApp.swift */,
+				2A62FAAA2C889AB5009B1333 /* ContentView.swift */,
+				2A62FAAE2C889AB7009B1333 /* Preview Content */,
 				2A99B29F2C889FB70017F927 /* Support Files */,
 				2A99B29E2C889F8F0017F927 /* DB */,
 				2A99B29D2C889F7C0017F927 /* Models */,
 				2A99B29B2C889D7B0017F927 /* Controllers */,
 				2A99B29A2C889D600017F927 /* Core Network */,
 				2A99B29C2C889D8D0017F927 /* Utils */,
-				2A62FAA82C889AB5009B1333 /* SallaPOCApp.swift */,
-				2A62FAAA2C889AB5009B1333 /* ContentView.swift */,
 			);
 			path = SallaPOC;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 		2A99B29A2C889D600017F927 /* Core Network */ = {
 			isa = PBXGroup;
 			children = (
+				2A99B2E92C8BDD1E0017F927 /* NetworkError.swift */,
 				2A99B2A42C88A0840017F927 /* NetworkManager.swift */,
 				2A99B2CA2C88C3140017F927 /* Routs */,
 				2A99B2CB2C88C33A0017F927 /* ProductService */,
@@ -244,7 +250,6 @@
 		2A99B29F2C889FB70017F927 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2A62FAAE2C889AB7009B1333 /* Preview Content */,
 				2A62FAAC2C889AB7009B1333 /* Assets.xcassets */,
 				2A99B2B12C88ACD50017F927 /* Developers.json */,
 				2A99B2B32C88ACD50017F927 /* DINNextLTArabic-Regular.ttf */,
@@ -458,6 +463,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A99B2AB2C88ABEE0017F927 /* BrandsImagesScrollView.swift in Sources */,
+				2A99B2EA2C8BDD1E0017F927 /* NetworkError.swift in Sources */,
 				2A99B2CD2C88C3610017F927 /* ProductOperations.swift in Sources */,
 				2A99B2BE2C88AEEB0017F927 /* BrandsItemsSwiftUIView.swift in Sources */,
 				2A99B2D72C891FA80017F927 /* BrandModel.swift in Sources */,
@@ -488,6 +494,7 @@
 				2A99B2D32C88C43F0017F927 /* SallaApi.swift in Sources */,
 				2A99B2E22C8B3FBF0017F927 /* BundleFileManager.swift in Sources */,
 				2A62FABA2C889AB7009B1333 /* SallaPOCTests.swift in Sources */,
+				2A99B2EB2C8BDD1E0017F927 /* NetworkError.swift in Sources */,
 				2A99B2E62C8BBF3B0017F927 /* ColorExtension.swift in Sources */,
 				2A99B2C82C88B07C0017F927 /* ItemDetailsSwiftUIView.swift in Sources */,
 			);
@@ -498,6 +505,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A99B2D42C88C43F0017F927 /* SallaApi.swift in Sources */,
+				2A99B2EC2C8BDD1E0017F927 /* NetworkError.swift in Sources */,
 				2A99B2A92C88AAE50017F927 /* BrandsSwiftUIView.swift in Sources */,
 				2A99B2CF2C88C3610017F927 /* ProductOperations.swift in Sources */,
 				2A99B2D92C891FA80017F927 /* BrandModel.swift in Sources */,
@@ -666,8 +674,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -697,8 +705,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

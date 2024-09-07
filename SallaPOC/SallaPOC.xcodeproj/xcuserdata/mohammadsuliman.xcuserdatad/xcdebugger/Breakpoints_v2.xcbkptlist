@@ -55,69 +55,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "3AFEBAFE-38C7-422D-B844-56DB08D338C4"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SallaPOC/Core Network/NetworkManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
-            landmarkName = "request(_:responseType:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "3AFEBAFE-38C7-422D-B844-56DB08D338C4 - 39ce9e207b0fa5eb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 ((Swift.Result&lt;SallaPOC.ResponseDataModel&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in SallaPOC.NetworkManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(SallaPOC.NetworkRequest) -&gt; Combine.AnyPublisher&lt;SallaPOC.ResponseDataModel&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
-                  moduleName = "SallaPOC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohammadsuliman/Documents/Developer/SallaTasks/SallaPOC/SallaPOC/Core%20Network/NetworkManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "147"
-                  endingLineNumber = "147"
-                  offsetFromSymbolStart = "1079">
-               </Location>
-               <Location
-                  uuid = "3AFEBAFE-38C7-422D-B844-56DB08D338C4 - 39ce9e207b0fa5eb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 ((Swift.Result&lt;SallaPOC.ResponseDataModel&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in SallaPOC.NetworkManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(SallaPOC.NetworkRequest) -&gt; Combine.AnyPublisher&lt;SallaPOC.ResponseDataModel&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
-                  moduleName = "SallaPOC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohammadsuliman/Documents/Developer/SallaTasks/SallaPOC/SallaPOC/Core%20Network/NetworkManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "147"
-                  endingLineNumber = "147"
-                  offsetFromSymbolStart = "1246">
-               </Location>
-               <Location
-                  uuid = "3AFEBAFE-38C7-422D-B844-56DB08D338C4 - 39ce9e207b0fa5eb"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 ((Swift.Result&lt;SallaPOC.ResponseDataModel&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in SallaPOC.NetworkManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(SallaPOC.NetworkRequest) -&gt; Combine.AnyPublisher&lt;SallaPOC.ResponseDataModel&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
-                  moduleName = "SallaPOC"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohammadsuliman/Documents/Developer/SallaTasks/SallaPOC/SallaPOC/Core%20Network/NetworkManager.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "147"
-                  endingLineNumber = "147"
-                  offsetFromSymbolStart = "1176">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "5519D36E-228D-489F-9D9E-97046C7226E0"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -173,24 +110,8 @@
             filePath = "SallaPOC/Core Network/NetworkManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
-            landmarkName = "request(_:responseType:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "DA926388-E14F-432A-919D-5F07B67BCC4B"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SallaPOC/Core Network/NetworkManager.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
             landmarkName = "request(_:responseType:)"
             landmarkType = "7">
          </BreakpointContent>

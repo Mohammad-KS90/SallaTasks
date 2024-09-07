@@ -39,7 +39,7 @@ class ProductOperationsService: ProductRepository {
         return networkManager.request(request, responseType: [Product].self)
     }
     
-    func fetchProductById(id: String) -> AnyPublisher<ResponseDataModel<[Product]>, Error>{
+    func fetchProductById(id: String) -> AnyPublisher<ResponseDataModel<Product>, Error>{
         
         let endpoint = SallaApiEndPoint.productsByID(id: id).endpoint
         
@@ -48,7 +48,7 @@ class ProductOperationsService: ProductRepository {
                                      headers: headers,
                                      encoding: .json)
         
-        return networkManager.request(request, responseType: [Product].self)
+        return networkManager.request(request, responseType: Product.self)
     }
     
 }
