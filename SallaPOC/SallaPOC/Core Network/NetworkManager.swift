@@ -15,8 +15,8 @@ class NetworkManager {
     private let baseUrlString = "https://api.salla.dev/"
     private let versionApi = "store/v1/"
     
-    private let sessionManager: Session
-    private let reachabilityManager = NetworkReachabilityManager()
+    let sessionManager: Session
+    let reachabilityManager = NetworkReachabilityManager()
 
     private init() {
         // Create a ServerTrustManager with certificate pinning

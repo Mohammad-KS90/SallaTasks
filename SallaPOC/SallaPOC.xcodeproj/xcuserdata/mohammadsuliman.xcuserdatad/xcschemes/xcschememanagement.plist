@@ -9,6 +9,29 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>SallaPOCTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2A62FAA42C889AB5009B1333</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2A62FAB42C889AB7009B1333</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2A62FABE2C889AB7009B1333</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 	</dict>
 </dict>
 </plist>
