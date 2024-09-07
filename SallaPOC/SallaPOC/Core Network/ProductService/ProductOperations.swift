@@ -13,21 +13,21 @@ protocol ProductRepository {
     
     var networkManager: NetworkManager { set get }
     var headers: HTTPHeaders { set get }
-    func fetchProducts(page: Int, limit: Int)-> AnyPublisher<ResponseDataModel<[Product]>, Error>
-    
+    func fetchBrands(page: Int, limit: Int)-> AnyPublisher<ResponseDataModel<[Prand]>, Error>
+    func fetchProductById(id: String) -> AnyPublisher<ResponseDataModel<Product>, Error>
 }
 
 
 class ProductOperationsService: ProductRepository {
     var networkManager: NetworkManager
     
-    var headers: HTTPHeaders  = ["Store-Identifier": "\(AppConfig().globalVariable.id)", "Currency" : "SAR", "AppVersion" : "3.0.0"]
+    var headers: HTTPHeaders  = ["Store-Identifier": "\(AppSettings.shared.storeIdentifier)", "Currency" : "SAR", "AppVersion" : "3.0.0"]
 
     init(networkManager: NetworkManager = .shared) {
         self.networkManager = networkManager
     }
 
-    func fetchProducts(page: Int, limit: Int) -> AnyPublisher<ResponseDataModel<[Product]>, Error>{
+    func fetchBrands(page: Int, limit: Int) -> AnyPublisher<ResponseDataModel<[Prand]>, Error>{
         
         let endpoint = SallaApiEndPoint.brands.endpoint + "?page=\(page)&per_page=\(limit)"
         print(endpoint)
@@ -36,7 +36,7 @@ class ProductOperationsService: ProductRepository {
                                      headers: headers,
                                      encoding: .json)
         
-        return networkManager.request(request, responseType: [Product].self)
+        return networkManager.request(request, responseType: [Prand].self)
     }
     
     func fetchProductById(id: String) -> AnyPublisher<ResponseDataModel<Product>, Error>{
@@ -51,11 +51,4 @@ class ProductOperationsService: ProductRepository {
         return networkManager.request(request, responseType: Product.self)
     }
     
-}
-
-class BrandOperations {
-    
-    static func getBrand() {
-        
-    }
 }

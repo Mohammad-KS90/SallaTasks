@@ -9,11 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @StateObject var appData = AppConfig()
-
     var body: some View {
 
         BrandsSwiftUIView()
-            .font(.custom(appData.globalVariable.fontFamily, size: 16))
+            .font(AppSettings.shared.primaryFont)
+
     }
 }

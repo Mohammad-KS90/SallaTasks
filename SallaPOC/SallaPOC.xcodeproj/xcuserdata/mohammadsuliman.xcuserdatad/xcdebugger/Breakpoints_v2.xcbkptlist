@@ -64,7 +64,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "34"
             endingLineNumber = "34"
-            landmarkName = "fetchProducts(page:limit:)"
+            landmarkName = "fetchBrands(page:limit:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -80,7 +80,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
             endingLineNumber = "39"
-            landmarkName = "fetchProducts(page:limit:)"
+            landmarkName = "fetchBrands(page:limit:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -96,7 +96,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "32"
             endingLineNumber = "32"
-            landmarkName = "fetchProducts(page:limit:)"
+            landmarkName = "fetchBrands(page:limit:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -300,8 +300,8 @@
             filePath = "SallaPOC/Utils/BundleFileManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "readJsonDeveloperFile(filename:Type:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -316,8 +316,8 @@
             filePath = "SallaPOC/Utils/BundleFileManager.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "readJsonDeveloperFile(filename:Type:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -332,8 +332,8 @@
             filePath = "SallaPOC/Controllers/ModelView/ProductViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
             landmarkName = "loadProducts()"
             landmarkType = "7">
          </BreakpointContent>

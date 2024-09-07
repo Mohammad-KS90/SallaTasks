@@ -12,9 +12,23 @@ import Foundation
 struct BrandsSwiftUIView: View {
 
     var body: some View {
-        Text("Brand: Armani")
-        BrandsImagesScrollView()
-        BrandLogoSwiftUIView()
-        BrandsItemsSwiftUIView()
+        if #available(iOS 16.0, *) {
+            NavigationStack {
+                content.background(AppSettings.shared.primaryColor)
+            }
+        } else {
+            NavigationView {
+                content.background(AppSettings.shared.primaryColor)
+            }
+        }
+    }
+    private var content: some View {
+        VStack {
+            BrandsImagesScrollView()
+            BrandLogoSwiftUIView()
+            BrandsItemsSwiftUIView()
+        }
+        .padding()
+
     }
 }

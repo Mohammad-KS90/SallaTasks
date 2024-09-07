@@ -10,11 +10,11 @@ import SwiftUI
 struct BrandsImagesScrollView: View {
     
     // Example list of images (you can replace these with your own image names or URLs)
-    let imageNames = ["armani", "armani", "armani", "armani", "armani"]
+    let imageNames = ["armani", "armani"]
 
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
-            HStack(spacing: 2) {
+            HStack(spacing: 5) {
                 ForEach(imageNames, id: \.self) { imageName in
                     Image(imageName)
                         .resizable()

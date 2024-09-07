@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct ItemSwiftUIView: View {
-    var product: Product
-    let addToCart: (_ product: Product,_ qty: Double) -> Void
+    var prand: Prand
+    let addToCart: (_ product: Prand,_ qty: Double) -> Void
     
     @State private var isAddedToCart: Bool = false
 
@@ -22,19 +22,19 @@ struct ItemSwiftUIView: View {
                 .frame(height: 100)
                 .padding()
 
-            Text(product.name ?? "N/A")
-                .foregroundColor(.white)
+            Text(prand.name ?? "N/A")
+                .foregroundColor(.black)
 
-            Text("$\(String(format: "%.2f", product.price ?? 0.0))")
-                .foregroundColor(.white)
+            Text("$\(String(format: "%.2f", prand.price ?? 0.0))")
+                .foregroundColor(.black)
 
             // "Add to Cart" button
             Button(action: {
                 isAddedToCart.toggle()
-                addToCart(product, 1)
+                addToCart(prand, 1)
             }) {
                 Text(isAddedToCart ? "Added" : "Add to Cart")
-                    .foregroundColor(.white)
+                    .foregroundColor(.black)
                     .padding()
                     .frame(maxWidth: .infinity)
                     .background(isAddedToCart ? Color.green : Color.gray)
@@ -44,7 +44,7 @@ struct ItemSwiftUIView: View {
         }
         .frame(height: 250)
         .padding()
-        .background(Color(.white.withAlphaComponent(0.2)))
+        .background(Color(.white))
         .cornerRadius(10)
         .shadow(radius: 5)
     }
