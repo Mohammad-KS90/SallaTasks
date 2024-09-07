@@ -22,7 +22,7 @@ class ProductViewModel: ObservableObject {
     var limit = 20
     
     init() {
-        loadProducts()
+//        loadProducts()
     }
     
     func loadProducts() {

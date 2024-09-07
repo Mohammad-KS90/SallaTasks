@@ -168,7 +168,6 @@
 				2A99B29C2C889D8D0017F927 /* Utils */,
 				2A62FAA82C889AB5009B1333 /* SallaPOCApp.swift */,
 				2A62FAAA2C889AB5009B1333 /* ContentView.swift */,
-				2A62FAAE2C889AB7009B1333 /* Preview Content */,
 			);
 			path = SallaPOC;
 			sourceTree = "<group>";
@@ -245,6 +244,7 @@
 		2A99B29F2C889FB70017F927 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
+				2A62FAAE2C889AB7009B1333 /* Preview Content */,
 				2A62FAAC2C889AB7009B1333 /* Assets.xcassets */,
 				2A99B2B12C88ACD50017F927 /* Developers.json */,
 				2A99B2B32C88ACD50017F927 /* DINNextLTArabic-Regular.ttf */,
@@ -667,6 +667,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -697,6 +698,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiresFullScreen = NO;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -30,7 +30,7 @@ class ProductOperationsService: ProductRepository {
     func fetchProducts(page: Int, limit: Int) -> AnyPublisher<ResponseDataModel<[Product]>, Error>{
         
         let endpoint = SallaApiEndPoint.brands.endpoint + "?page=\(page)&per_page=\(limit)"
-        
+        print(endpoint)
         let request = NetworkRequest(endpoint: endpoint,
                                      method: .get,
                                      headers: headers,
