@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "730C0B2F-8BD6-404F-BAAA-13AED590CED1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0C59F6A3-3055-4B27-8E77-D65ED817F86F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SallaPOC/Controller/Items/ProductViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "loadProducts()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0C59F6A3-3055-4B27-8E77-D65ED817F86F - 1c3891396f7ba199"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SallaPOC.ResponseDataModel&lt;Swift.Array&lt;SallaPOC.Product&gt;&gt;) -&gt; () in SallaPOC.ProductViewModel.loadProducts(page: Swift.Int, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SallaPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadsuliman/Documents/Developer/SallaTasks/SallaPOC/SallaPOC/Controller/Items/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "0C59F6A3-3055-4B27-8E77-D65ED817F86F - 1c3891396f7ba199"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SallaPOC.ResponseDataModel&lt;Swift.Array&lt;SallaPOC.Product&gt;&gt;) -&gt; () in SallaPOC.ProductViewModel.loadProducts(page: Swift.Int, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SallaPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadsuliman/Documents/Developer/SallaTasks/SallaPOC/SallaPOC/Controller/Items/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AFEBAFE-38C7-422D-B844-56DB08D338C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SallaPOC/Core Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "request(_:responseType:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3AFEBAFE-38C7-422D-B844-56DB08D338C4 - 39ce9e207b0fa5eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;SallaPOC.ResponseDataModel&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in SallaPOC.NetworkManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(SallaPOC.NetworkRequest) -&gt; Combine.AnyPublisher&lt;SallaPOC.ResponseDataModel&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "SallaPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadsuliman/Documents/Developer/SallaTasks/SallaPOC/SallaPOC/Core%20Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "1079">
+               </Location>
+               <Location
+                  uuid = "3AFEBAFE-38C7-422D-B844-56DB08D338C4 - 39ce9e207b0fa5eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;SallaPOC.ResponseDataModel&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in SallaPOC.NetworkManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(SallaPOC.NetworkRequest) -&gt; Combine.AnyPublisher&lt;SallaPOC.ResponseDataModel&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "SallaPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadsuliman/Documents/Developer/SallaTasks/SallaPOC/SallaPOC/Core%20Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "1246">
+               </Location>
+               <Location
+                  uuid = "3AFEBAFE-38C7-422D-B844-56DB08D338C4 - 39ce9e207b0fa5eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((Swift.Result&lt;SallaPOC.ResponseDataModel&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;) -&gt; ()) -&gt; () in SallaPOC.NetworkManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(SallaPOC.NetworkRequest) -&gt; Combine.AnyPublisher&lt;SallaPOC.ResponseDataModel&lt;&#x3c4;_0_0&gt;, Swift.Error&gt;"
+                  moduleName = "SallaPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadsuliman/Documents/Developer/SallaTasks/SallaPOC/SallaPOC/Core%20Network/NetworkManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "147"
+                  endingLineNumber = "147"
+                  offsetFromSymbolStart = "1176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5519D36E-228D-489F-9D9E-97046C7226E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SallaPOC/Core Network/ProductService/ProductOperations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "fetchProducts(page:limit:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E19D7C6E-B474-4979-9F61-B6691643768A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SallaPOC/Core Network/ProductService/ProductOperations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "fetchProducts(page:limit:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F3562B55-5F39-421A-B70D-45FC55034365"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SallaPOC/Core Network/ProductService/ProductOperations.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchProducts(page:limit:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D18F08D-F98B-4FDD-BC08-AEDC1E71D02E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SallaPOC/Core Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "request(_:responseType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA926388-E14F-432A-919D-5F07B67BCC4B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SallaPOC/Core Network/NetworkManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
+            landmarkName = "request(_:responseType:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE31DD39-5BD6-4DD8-9D21-68DC7B4D076B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SallaPOC/Controller/Items/ProductViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "loadProducts()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DE31DD39-5BD6-4DD8-9D21-68DC7B4D076B - 837c450d4ed9f7c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in SallaPOC.ProductViewModel.loadProducts(page: Swift.Int, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SallaPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadsuliman/Documents/Developer/SallaTasks/SallaPOC/SallaPOC/Controller/Items/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "110">
+               </Location>
+               <Location
+                  uuid = "DE31DD39-5BD6-4DD8-9D21-68DC7B4D076B - 837c450d4ed9f7c0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Error&gt;) -&gt; () in SallaPOC.ProductViewModel.loadProducts(page: Swift.Int, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SallaPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadsuliman/Documents/Developer/SallaTasks/SallaPOC/SallaPOC/Controller/Items/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC0D4287-1331-432B-8B04-0493F2F46F99"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SallaPOC/Controller/Items/ProductViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "loadProducts()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FC0D4287-1331-432B-8B04-0493F2F46F99 - 1c3891396f7ba064"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SallaPOC.ResponseDataModel&lt;Swift.Array&lt;SallaPOC.Product&gt;&gt;) -&gt; () in SallaPOC.ProductViewModel.loadProducts(page: Swift.Int, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SallaPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadsuliman/Documents/Developer/SallaTasks/SallaPOC/SallaPOC/Controller/Items/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "183">
+               </Location>
+               <Location
+                  uuid = "FC0D4287-1331-432B-8B04-0493F2F46F99 - 1c3891396f7ba064"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SallaPOC.ResponseDataModel&lt;Swift.Array&lt;SallaPOC.Product&gt;&gt;) -&gt; () in SallaPOC.ProductViewModel.loadProducts(page: Swift.Int, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SallaPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadsuliman/Documents/Developer/SallaTasks/SallaPOC/SallaPOC/Controller/Items/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "FC0D4287-1331-432B-8B04-0493F2F46F99 - 1c3891396f7ba064"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SallaPOC.ResponseDataModel&lt;Swift.Array&lt;SallaPOC.Product&gt;&gt;) -&gt; () in SallaPOC.ProductViewModel.loadProducts(page: Swift.Int, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SallaPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadsuliman/Documents/Developer/SallaTasks/SallaPOC/SallaPOC/Controller/Items/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "174">
+               </Location>
+               <Location
+                  uuid = "FC0D4287-1331-432B-8B04-0493F2F46F99 - 1c3891396f7ba064"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (SallaPOC.ResponseDataModel&lt;Swift.Array&lt;SallaPOC.Product&gt;&gt;) -&gt; () in SallaPOC.ProductViewModel.loadProducts(page: Swift.Int, limit: Swift.Int) -&gt; ()"
+                  moduleName = "SallaPOC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadsuliman/Documents/Developer/SallaTasks/SallaPOC/SallaPOC/Controller/Items/ProductViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "229">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "288861EA-F7C0-42C2-A81D-83127ECFBF24"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SallaPOC/Controller/Items/ProductViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "loadProducts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A3A15E48-A240-4695-8276-D71FA90D8D5B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SallaPOC/Controller/Brands/BrandsItemsSwiftUIView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D455718D-CB9A-44C0-95C2-EFC034C593CE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SallaPOC/Controller/Items/ProductViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "loadProducts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0283427E-0FF1-42F3-908D-D8BFF5F39184"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SallaPOC/Utils/BundleFileManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "readJsonDeveloperFile(filename:Type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB31A9C5-D6FB-44D2-A8C3-4427E5A407C4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SallaPOC/Utils/BundleFileManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "readJsonDeveloperFile(filename:Type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

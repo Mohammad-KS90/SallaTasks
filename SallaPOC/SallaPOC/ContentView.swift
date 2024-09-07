@@ -8,18 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @StateObject var appData = AppConfig()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+
+        BrandsSwiftUIView()
+            .font(.custom(appData.globalVariable.fontFamily, size: 16))
     }
 }
-
-// un-commit this code to use render to view the page in your XCode
-//#Preview {
-//    ContentView()
-//}
